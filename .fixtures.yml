@@ -1,0 +1,25 @@
+fixtures:
+  repositories:
+    apache:
+      repo: 'https://github.com/puppetlabs/puppetlabs-apache.git'
+      ref: '1.10.0'
+    concat:
+      repo: 'https://github.com/puppetlabs/puppetlabs-concat.git'
+      ref: '1.2.5'
+    inifile:
+      repo: 'https://github.com/puppetlabs/puppetlabs-inifile.git'
+      ref: '1.5.0'
+    mysql:
+      repo: 'https://github.com/puppetlabs/puppetlabs-mysql.git'
+      ref: '3.8.0'
+    php:
+      repo: 'https://github.com/mayflower/puppet-php.git'
+      ref: '3.4.1'
+    staging:
+      repo: 'https://github.com/voxpupuli/puppet-staging.git'
+      ref: 'v1.0.7'
+    stdlib:
+      repo: 'https://github.com/puppetlabs/puppetlabs-stdlib.git'
+      ref: '4.12.0'
+  symlinks:
+    cool: "#{source_dir}"
